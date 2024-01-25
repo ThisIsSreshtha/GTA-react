@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import logo from "../images/company-logo.jpg";
 import gtaLogo from "../images/gta-logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 class Navbar extends Component {
 	state = {};
 	render() {
@@ -30,9 +32,14 @@ class Navbar extends Component {
 							<li>Support</li>
 						</a>
 					</ul>
-					<button className=' w-40 h-10 border border-white rounded'>
-						Buy Now
+					<button className=' w-40 h-10 border border-white rounded font-bold'>
+						BUY NOW
 					</button>
+					<FontAwesomeIcon
+						icon={faSearch}
+						style={{ color: "#ffffff" }}
+						className='mx-5'
+					/>
 				</nav>
 			</>
 		);

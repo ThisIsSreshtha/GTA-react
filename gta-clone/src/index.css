@@ -14,3 +14,10 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
+@layer components {
+	.buynow:hover {
+		background-color: white;
+		color: black;
+		transition: 0.5s ease;
+	}
+}

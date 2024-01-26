@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import hero from "../images/hero-image.jpg";
 
 class Hero extends Component {
 	state = {};
 	render() {
 		return (
 			<>
-				<img src={hero} alt='' className='w-full h-screen' />
+				<div className='bg-hero-pattern bg-cover w-full h-screen'></div>
 			</>
 		);
 	}

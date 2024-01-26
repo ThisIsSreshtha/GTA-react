@@ -32,7 +32,7 @@ class Navbar extends Component {
 							<li>Support</li>
 						</a>
 					</ul>
-					<button className=' w-48 h-10 border border-white rounded font-bold buynow'>
+					<button className=' w-48 h-10 border border-white rounded font-bold button'>
 						BUY NOW
 					</button>
 					<FontAwesomeIcon

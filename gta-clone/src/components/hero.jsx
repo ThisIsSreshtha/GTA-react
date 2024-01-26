@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import hero from "../images/hero-image.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Hero extends Component {
 	state = {};

@@ -14,22 +14,22 @@ class Navbar extends Component {
 					<img src={gtaLogo} alt='' className='mx-3' />
 					<ul className='flex justify-around items-center w-screen'>
 						<a href='#'>
-							<li>Overview</li>
+							<li className='flex items-center h-20 navlink'>Overview</li>
 						</a>
 						<a href='#'>
-							<li>GTA Online</li>
+							<li className='flex items-center h-20 navlink'>GTA Online</li>
 						</a>
 						<a href='#'>
-							<li>Story</li>
+							<li className='flex items-center h-20 navlink'>Story</li>
 						</a>
 						<a href='#'>
-							<li>GTA+</li>
+							<li className='flex items-center h-20 navlink'>GTA+</li>
 						</a>
 						<a href='#'>
-							<li>Community</li>
+							<li className='flex items-center h-20 navlink'>Community</li>
 						</a>
 						<a href='#'>
-							<li>Support</li>
+							<li className='flex items-center h-20 navlink'>Support</li>
 						</a>
 					</ul>
 					<button className=' w-48 h-10 border border-white rounded font-bold button'>

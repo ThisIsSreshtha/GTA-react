@@ -20,4 +20,8 @@ code {
 		color: black;
 		transition: 0.6s ease;
 	}
+	.navlink:hover {
+		border-bottom: 3px solid white;
+		transition: 0.3s ease;
+	}
 }

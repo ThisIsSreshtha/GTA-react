@@ -6,6 +6,9 @@ module.exports = {
 			backgroundImage: {
 				"hero-pattern": "url('./images/los-santos.jpg')",
 			},
+			fontFamily: {
+				agency: ["Agdasima", "sans-serif"],
+			},
 		},
 	},
 	plugins: [],

@@ -14,7 +14,9 @@ class Navbar extends Component {
 					<img src={gtaLogo} alt='' className='mx-3' />
 					<ul className='flex justify-around items-center w-screen'>
 						<a href='#'>
-							<li className='flex items-center h-20 navlink'>Overview</li>
+							<li className='flex items-center h-20 border-b-[3px] font-bold'>
+								Overview
+							</li>
 						</a>
 						<a href='#'>
 							<li className='flex items-center h-20 navlink'>GTA Online</li>

@@ -6,7 +6,7 @@ class Hero extends Component {
 	render() {
 		return (
 			<>
-				<div className='bg-hero-pattern bg-cover w-full h-[530px] px-16 py-4 text-white'>
+				<div className='bg-hero-pattern bg-cover bg-center h-[530px] px-16 py-4 text-white'>
 					<div className='flex place-items-center'>
 						<img src={gtaV} alt='' className='w-40' />
 						<img src={gtaOnline} alt='' className='w-48 h-48' />

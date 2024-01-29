@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import trinity from "../images/holy-trinity.png";
+import trinity from "../images/gta-v.png";
 import gtaV from "../images/gta-logo2.png";
 import gtaonline from "../images/gtaonline.png";
 import gtaOnline from "../images/gta-online.png";

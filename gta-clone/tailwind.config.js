@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				"hero-pattern": "url('./images/los-santos.jpg')",
+				"hero-pattern": "url('./images/los-santos.png')",
 			},
 			fontFamily: {
 				agency: ["Agdasima", "sans-serif"],

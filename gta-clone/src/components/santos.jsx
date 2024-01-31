@@ -33,7 +33,7 @@ let Section = ({ image, logo, heading, description_1, description_2 }) => {
 			<div className='flex justify-center items-center bg-[#151515]'>
 				<img src={image} alt='' className='w-screen' />
 			</div>
-			<div className='flex items-start bg-black px-[360px] text-white flex-col py-10'>
+			<div className='flex items-start bg-gray-950 px-[400px] text-white flex-col py-28'>
 				<img src={logo} alt='' className='w-48' />
 				<h1 className='text-4xl font-extrabold scale-y-150 my-7'>{heading}</h1>
 				<p className='text-xl mb-10 tracking-wide'>{description_1}</p>

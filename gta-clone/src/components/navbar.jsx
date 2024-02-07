@@ -8,11 +8,11 @@ class Navbar extends Component {
 	render() {
 		return (
 			<>
-				<nav className='bg-black text-white w-full h-20 py-5 px-16 flex justify-center items-center m-auto'>
-					<img src={logo} alt='' className='w-12 h-8' />
+				<nav className=' bg-black text-white w-full h-20 py-5 px-16 flex justify-center items-center m-auto'>
+					<img src={logo} alt='' className='w-12 h-8' id='img-1' />
 					<div className='bg-gray-400 w-[0.5px] h-9'></div>
-					<img src={gtaLogo} alt='' className='mx-3' />
-					<ul className='flex justify-around items-center w-screen'>
+					<img src={gtaLogo} alt='' className='mx-3' id='img-2' />
+					<ul className='flex justify-around items-center w-screen ul'>
 						<a href='#'>
 							<li className='flex items-center h-20 border-b-[3px] font-bold'>
 								Overview
@@ -40,7 +40,7 @@ class Navbar extends Component {
 					<FontAwesomeIcon
 						icon={faSearch}
 						style={{ color: "#ffffff" }}
-						className='mx-5 text-2xl'
+						className='mx-5 text-2xl icon'
 					/>
 				</nav>
 			</>
